@@ -1,0 +1,24 @@
+Application name : Flatemates
+
+Description :
+
+Elle prend en consideration le prix de la facture, le mois, le nom du user, la periode qu'il a passé, le nom de son flatmate et la periode quil a passé,
+elle retourne le prix qu'ils doivent payer, sort processus finished with code 0 et genere un pdf avec une image de maison,
+flatmate, la periode et ce qu chaque personne doit payer.
+L'app envoie aussi un lien ou on peut trouver le pdf enrehistrer dans le cloud
+
+
+Objects :
+        bill:
+            amount
+            periode
+        flatemate:
+            name
+            days_in_house
+            pays(bill)
+        pdfreport:
+            filename
+            save()
+            genrate(flatemate, flatemate2, bill)
+
+

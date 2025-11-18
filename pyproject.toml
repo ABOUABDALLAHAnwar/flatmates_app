@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "flatmates"
+version = "0.1.0"
+description = ""
+authors = ["ABOUABDALLAH Mohamed-Anwar <mohamed-anwar.abouabdallah@inria.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fpdf2 = "^2.8.5"
+fpdf = "^1.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
